@@ -1,0 +1,56 @@
+#login>div>div{
+  height:858px;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  height:15%;
+  top:45%;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+  width:40px;
+  height:40px;
+} 
+.carousel-indicators li{
+  width:8px;
+  height:8px;
+  border-radius:50%;
+}
+.title{
+  color:#707374;
+}
+.w-25{
+  width:11% !important;
+}
+.btn_phone{
+  background-color:#f7f8f9;
+  cursor: auto !important;
+}
+.w_50{
+  width:58%;
+}
+.m_l_log{
+  margin-left: 30%;
+}
+.m_l{
+  margin-left: 14%;
+}
+.m_l_header{
+  margin-left: 15%;
+}
+.m_login{
+  margin-left: 35%;
+}
+.my_small{
+  font-size: 0.75rem;
+}
+#email_tip{
+  position: absolute;
+  top:284px;
+  left:362px;
+}
+#upwd_tip{
+  position: absolute;
+  top:367px;
+  left:362px;
+}

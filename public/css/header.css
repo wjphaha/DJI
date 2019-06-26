@@ -1,0 +1,13 @@
+
+.font_color{
+  color: #6c7073;
+}
+.breadcrumb-item + .breadcrumb-item::before{
+  content:"|";
+}
+.my_black{
+  color:black;
+}
+a:hover{
+  text-decoration: none;
+}

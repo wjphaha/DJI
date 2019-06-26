@@ -1,0 +1,18 @@
+.font_color{
+  color: #6c7073;
+}
+.font_small{
+  font-size: 0.7rem;
+}
+.font_black{
+  color:#000;
+}
+.border_radius{
+  border-radius:0.2rem;
+}
+.bg_btn{
+  background-color:#6c7073;
+}
+a:hover{
+  text-decoration: none;
+}

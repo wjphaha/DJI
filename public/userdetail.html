@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>用户详情页</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./mcss/footer.css">
+    <link rel="stylesheet" href="./mcss/myinfo.css">
+    <link rel="stylesheet" href="./mcss/comm.css">
+</head>
+<body>
+    <div class="container">
+        <!-- 头部内容 -->
+        <div class="row carthead border-bottom">
+            <div class="col-2 my-2 text-muted">
+                <img src="./image/product_detail/checkout-logo.png" class="w-25" alt="">
+                <span class="h5">商城</span>
+            </div>
+            <!-- 面包屑导航 -->
+            <div class="col-4 offset-6 mt-3 text-muted small font ">
+                <span>我的账号</span><span class="ml-2">|</span> <span>中国大陆（简体中文/¥CNY）</span>
+            </div>
+        </div> 
+        <div class="mt-2">
+            <span class="med text-muted"><a href="index.html">首页 / </a>我的账号</span>
+        </div>
+        <!-- 账号列表 -->
+        <div class="d-flex">
+            <div class="list_left mt-4 p-3">
+                <p class="text-muted mt-2 ml-2 pb-3 border-bottom">账号</p>
+                <ul class="list-unstyled ">
+                    <li class="mt-3 med"><a class="text-muted" href="javascript:;">我的账号</a></li>
+                    <li class="mt-3 med"><a class="text-muted" href="javascript:;">我的个人资料</a></li>
+                    <li class="mt-3 med"><a class="text-muted" href="javascript:;">我的订单</a></li>
+                    <li class="mt-3 med"><a class="text-muted" href="javascript:;">我的卡券</a></li>
+                    <li class="mt-3 med"><a class="text-muted" href="javascript:;">我的DJI币</a></li>
+                    <li class="mt-3 med"><a class="text-muted" href="javascript:;">我的收货地址</a></li>
+                    <li class="mt-3 med"><a class="text-muted" href="javascript:;">修改密码</a></li>
+                </ul>
+            </div>
+        <!-- 用户信息 -->
+            <div>
+                <div class="userinfo ml-5 mt-4 d-flex">
+                    <img class="p-3" src="./image/login/default-picture-10115437a71ccfd271347fc49103aad3.png" alt="">
+                    <div class="mt-4 ml-5">
+                        <h3 class="text-muted h4">用户名</h3>
+                        <p class="small text-muted mt-3">手机号：182****7842</p>
+                        <p class="small"><a href="javascript:;">编辑个人资料 | </a><a href="javascript:;">修改密码</a></p>
+                    </div>
+                    <div class="right text-center mt-4">
+                        <p class="med">我的可用DJI币</p>
+                        <p class="small text-danger">￥0.00</p>
+                        <p class="small"><a href="javascript:;">查看我的DJi币详情></a></p>
+                    </div>
+                </div> 
+                <div class="order mt-3 ml-5">
+                    <div class="p-2 border-bottom">
+                        <span class=" med text-muted">我的最新订单</span>
+                        <span class="mt-1 float-right med"><a href="javascript:;">更多</a></span>
+                    </div>
+                    <div class="text-center">
+                        <p class="mt-5 med text-muted">你的账户暂时没有订单</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+             
+    </div>
+    <footer id="footer"></footer>
+    <script src="./mjs/footer.js"></script>
+</body>
+</html>

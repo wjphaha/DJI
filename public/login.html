@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <script src="./js/jquery.min.js"></script>
+  <script src="./js/popper.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="./mcss/login.css">
+  <script src="./mjs/login.js"></script>
+  
+</head>
+<body>
+  <div class="container">
+    <div class="row mt-5 pt-5">
+      <!-- 轮播图 -->
+      <div class="col-md-6 col-sm-12">
+        <div id="login" class="carousel" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./image/login/1.e61fc72.jpg" class="h-100" alt="">
+            </div>
+            <div class="carousel-item">
+              <img src="./image/login/2.643c4c1.jpg"class="h-100" alt="">
+            </div>
+            <div class="carousel-item">
+              <img src="./image/login/3.61f61fa.jpg"class="h-100" alt="">
+            </div>
+          </div>
+        </div>
+        <!-- 左右箭头 -->
+        <a href="#login" class="carousel-control-next" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+        <a href="#login" class="carousel-control-prev" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <!-- 轮播指示图 -->
+        <ul class="carousel-indicators">
+          <li class="active" data-slide-to="0" data-target="#login"></li>
+          <li  data-slide-to="1" data-target="#login"></li>
+          <li  data-slide-to="2" data-target="#login"></li>
+        </ul>
+      </div>
+      <div class="col-md-6 col-sm-12">
+        <p class="m_login h2 title font-weight-blod">登录</p>
+        <!-- 显示内容 -->
+        <div class="d-flex mt-5">
+          <label for="" class="my_small lab">请输入手机号/邮箱*</label>
+          <input id="name"  type="text" class="w-50 form-control m_l ">
+          <span></span>
+        </div>
+        <div class="d-flex mt-5">
+          <label for="" class="my_small lab">密码*</label>
+          <input id="upwd" type="password" class="w-50 form-control m_l ">
+          <span></span>
+        </div>
+        <button id="signup" class="btn bg-primary w-50 m_l mt-5">登录</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

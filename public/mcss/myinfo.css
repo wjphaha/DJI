@@ -1,0 +1,38 @@
+.font {
+  font-size: 0.75rem; }
+.font>span:hover{
+    color:darkviolet
+}
+.small{
+  font-size: 12px;
+}
+.list_left{
+  width:277px;
+  height:450px;
+  background-color:#f7f8f9
+}
+.med{
+  font-size: 14px;
+}
+a:hover{
+  text-decoration: none;
+}
+.userinfo{
+  border:1px solid #eee;
+  width:898px;
+  height:180px;
+}
+.right{
+  width:260px;
+  height: 110px;
+  border:1px solid #eee;
+  background-color:#f9f9f9;
+  margin-left: 150px;
+}
+.order{
+  border:1px solid #eee;
+  height: 350px;
+}
+.font_small{
+  font-size: 0.7rem;
+}

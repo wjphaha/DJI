@@ -1,0 +1,20 @@
+.carthead {
+  height: 40px; }
+
+.my_med {
+  font-size: 0.8rem; }
+
+.shop:hover {
+  color: blue; }
+a:hover{
+  text-decoration: none;
+}
+.font_small{
+  font-size: 0.7rem;
+}
+.font_color{
+  color: #6c7073;
+}
+.font_black{
+  color:#000;
+}

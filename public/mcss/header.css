@@ -1,0 +1,16 @@
+.breadcrumb-item + .breadcrumb-item::before{
+  content:"|";
+}
+.my_black{
+  color:black;
+}
+
+#demo{
+  margin-left: 20%;
+  background: transparent;
+  /* width:20%; */
+  height:500px;
+  display: none;
+}
+
+

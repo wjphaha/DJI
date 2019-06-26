@@ -1,0 +1,69 @@
+#login>div>div{
+  height:858px;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  height:15%;
+  top:45%;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+  width:40px;
+  height:40px;
+} 
+.carousel-indicators li{
+  width:8px;
+  height:8px;
+  border-radius:50%;
+}
+.title{
+  margin-top: 35%;
+  color:#3b3e40;
+}
+.w-25{
+  width:10% !important;
+}
+.btn_phone{
+  background-color:#f7f8f9;
+  cursor: auto !important;
+}
+.w_50{
+  width:58%;
+}
+.m_l{
+  margin-left: 26%;
+}
+.m_login{
+  margin-left: 48%;
+}
+.my_small{
+  font-size: 0.75rem;
+}
+
+/********/
+
+.m_l{
+  margin-left: 14%;
+}
+.m_login{
+  margin-left: 35%;
+}
+#phone_tip{
+  position: absolute;
+  top:284px;
+  left:362px;
+}
+#upwd_tip{
+  position: absolute;
+  top:367px;
+  left:362px;
+}
+.lab{
+  position: absolute;
+  left:95px;
+  line-height: 40px;
+}
+.smaller{
+  font-size: 8px;
+  margin-top:-15px;
+}

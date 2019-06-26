@@ -1,0 +1,43 @@
+*{margin:0;padding:0}
+body{
+  font-size: 16px;
+  background-color:#f7f9fa;
+}
+.my_small{
+  font-size:0.6rem;
+}
+@media screen and (min-width:992px){
+  .my_header{height:6.7rem;}
+  .my_footer{height:28rem;}
+}
+@media screen and (max-width:991px)and (min-width:768px){
+  .my_header{height:10rem;}
+  .my_footer{height:32rem;}
+}
+@media screen and (max-width:767px){
+  .my_header{height:19rem;}
+  .my_footer{height:45rem;}
+  .small_center{text-align: center}
+}
+.my_med{
+  font-size:0.8rem;
+}
+#phone_tip{
+  position: absolute;
+  top:284px;
+  left:362px;
+}
+#upwd_tip{
+  position: absolute;
+  top:367px;
+  left:362px;
+}
+.lab{
+  position: absolute;
+  left:95px;
+  line-height: 40px;
+}
+.smaller{
+  font-size: 8px;
+  margin-top:-15px;
+}

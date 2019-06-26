@@ -1,0 +1,51 @@
+.my_header,.my_footer{
+  width:100%;
+}
+/* 媒体查询 */
+@media screen and (min-width:992px){
+  .my_header{height:13rem;}
+  .my_footer{height:28rem;}
+}
+@media screen and (max-width:991px)and (min-width:768px){
+  .my_header{height:18rem;}
+  .my_footer{height:30rem;}
+
+}
+@media screen and (max-width:767px){
+  .my_header{height:27rem;}
+  .my_footer{height:34rem;}
+}
+.carousel-control-prev,.carousel-control-next{
+  width:4%;height: 20%;
+  background-color:transparent;
+  top:40%;
+  border-radius: 0.25rem;
+}
+.carousel-control-prev:hover{
+  background-color:rgba(0,0,0,0.3);
+}
+.carousel-control-next:hover{
+  background-color:rgba(0,0,0,0.3);
+}
+.carousel-indicators li{
+  width:8px;
+  height:8px;
+  border-radius: 50%;
+  margin:0 5px;
+  background-color:gray;
+}
+.carousel-indicators .active{
+ background-color:#fff;
+}
+.one_top>div>div{
+  height:520px;
+}
+.one_footer>div>div{
+  height:400px;
+}
+.two_top,.two_center,.two_bottom{
+  height:400px;
+}
+
+
+

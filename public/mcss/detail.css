@@ -1,0 +1,86 @@
+.my_header,.my_footer{
+  width:100%;
+}
+/* 媒体查询 */
+@media screen and (min-width:992px){
+  .my_header{height:7rem;}
+  .my_footer{height:30rem;}
+}
+@media screen and (max-width:991px)and (min-width:768px){
+  .my_header{height:18rem;}
+  .my_footer{height:30rem;}
+}
+@media screen and (max-width:767px){
+  .my_header{height:27rem;}
+  .my_footer{height:34rem;}
+}
+.my_breadcrumb{
+  font-size: 0.7rem;
+}
+.top_left,.top_right{
+  position: relative;
+  height:1517px;
+}
+
+.top_left>div{
+  height:320px;
+}
+.left_bottom>div{
+  height:35px;
+  border:1px solid gray;
+}
+.box_img_1{
+  background: url("../image/product_detail/small_e98ea3db-7910-4928-882a-757ee5b4f4ae.jpeg") no-repeat center;
+  background-size: cover;
+}
+.box_img_2{
+  background: url("../image/product_detail/small_547a09b9-1137-46e4-b806-8f9278ca84a1\ \(1\).jpg")no-repeat center;
+  background-size: cover;
+}
+.box_img_3{
+  background: url("../image/product_detail/small_258e3965-b6d4-4598-a7bc-ee4733c02410.jpg")no-repeat center;
+  background-size: cover;
+}
+
+.box_img_4{
+  background: url("../image/product_detail/small_4cb68b06-1b31-4369-9951-82b8f818b8c3.jpg")no-repeat center;
+  background-size: cover;
+}
+.box_img_5{
+  background: url("../image/product_detail/small_f732da2a-df74-4e81-acd3-23dde94846b8.jpg")no-repeat center;
+  background-size: cover;
+}
+.box_img_6{
+  background: url("../image/product_detail/small_547a09b9-1137-46e4-b806-8f9278ca84a1.jpg")no-repeat center;
+  background-size: cover;
+}
+.box_img_7{
+  background: url("../image/product_detail/small_2ea117f5-f9fe-4471-b03a-74427f065f2f.jpg")no-repeat center;
+  background-size: cover;
+}
+.box_img_8{
+  background: url("../image/product_detail/small_8e06abed-16b6-40b4-8f56-caf0ad88c584.png")no-repeat center;
+  background-size: cover;
+}
+.btn{
+  border-radius: 0;
+}
+.abs_bottom{
+  margin-left: 15px;
+  position: absolute;
+  top: 360px;
+  left: 5px;
+  width: 511px;
+  height: 295px;
+}
+.abs{
+  margin-left: 15px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 540px;
+  height: 312px;
+}
+.float{
+  float:both;
+}
